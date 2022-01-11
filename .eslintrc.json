@@ -1,14 +1,15 @@
 {
-    "extends": "airbnb-base",
-    "env": {
-        "es2021": true,
-        "node": true
-    },
-    "plugins": ["import"],
-    "parserOptions": {
-        "ecmaVersion": 8,
-        "sourceType": "module"
-    },
-    "rules": {
-    }
+  "extends": ["airbnb-base", "prettier"],
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "plugins": ["import"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-promise-executor-return": false
+  }
 }
